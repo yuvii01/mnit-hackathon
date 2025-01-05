@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "axios": "^1.7.7",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "gsap": "^3.12.5"
+  },
+  "scripts": {
+    "start": "concurrently \"cd bot && npm run dev\" \"cd backend && nodemon index\""
+  }
+}
